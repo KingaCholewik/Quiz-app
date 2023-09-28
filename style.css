@@ -1,0 +1,38 @@
+html{
+  font-family: 'Cardo', serif;
+  font-size: 30px;
+  width: 800px;
+  background-color: #000;
+  margin: 20px auto;
+}
+h1{
+  color: #fff;
+  text-align: center;
+}
+.wrapper{
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #ed1b2e;
+}
+ul{
+  margin: 50px;
+  text-align: left;
+  list-style: none;
+}
+.next{
+  border-style: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Cardo', serif;
+  border-radius: 65px;
+  padding: 2px 40px 0;
+  margin-left: 200px;
+  transition: .5s;
+}
+.next:hover{
+  background-color: #fff;
+  color: #000;
+}
